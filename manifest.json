@@ -1,0 +1,7 @@
+{
+  "name": "Plugin Example Prototype Write",
+  "id": "figma-plugin-example-prototype-write",
+  "api": "1.0.0",
+  "main": "build/main.js",
+  "ui": "build/ui.js"
+}
