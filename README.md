@@ -1,5 +1,7 @@
 # 🍜 figma-plugin-example-prototype-write
 
+![Prototype Writes](proto-write-landscape.gif)
+
 The ability to write protoype interactions in the Figma plugin API has landed! This update allows plugins to create new prototype interactions in the editor.
 
 ### Understanding reactions
@@ -22,6 +24,8 @@ Here's an example `reactions` array with a single reaction:
     }
 ]
 ```
+
+
 
 
 ## Development guide
@@ -73,3 +77,21 @@ To open the developer console in the Figma desktop app, go to `Plugins` → `Dev
 - [Figma plugin API docs](https://figma.com/plugin-docs/api/)
 - [`figma/plugin-samples`](https://github.com/figma/plugin-samples)
 - [`yuanqing/figma-plugins`](https://github.com/yuanqing/figma-plugins)
+
+
+
+// if (singleNodeMixedInteractionTypes || possibleDuplicateInteractionType) {
+//   // Don't allow for multiple of the same interactions on a node, with the exception of
+//   // keyboard, drag, and voice triggers.
+//   if (interaction !== 'ON_KEY_DOWN' && interaction !== 'DRAG' && interaction !== 'ON_VOICE') {
+//     return false
+//   }
+
+
+// if (this.props.connectionType === 'BACK') {
+//   // Disable interactions that already have their own notion of 'returning' to the
+//   // previous frame
+//   if (interaction === 'ON_HOVER' || interaction === 'ON_PRESS') {
+//     return false
+//   }
+// }

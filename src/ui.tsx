@@ -30,7 +30,7 @@ function Plugin () {
                 selection: data
             }
         });
-
+        
         validateSelection(data);
     }
       

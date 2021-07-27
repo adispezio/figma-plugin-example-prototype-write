@@ -92,22 +92,3 @@ export default function () {
   handleSelectionUpdate();
   
 }
-
-
-
-
-// if (singleNodeMixedInteractionTypes || possibleDuplicateInteractionType) {
-//   // Don't allow for multiple of the same interactions on a node, with the exception of
-//   // keyboard, drag, and voice triggers.
-//   if (interaction !== 'ON_KEY_DOWN' && interaction !== 'DRAG' && interaction !== 'ON_VOICE') {
-//     return false
-//   }
-
-
-// if (this.props.connectionType === 'BACK') {
-//   // Disable interactions that already have their own notion of 'returning' to the
-//   // previous frame
-//   if (interaction === 'ON_HOVER' || interaction === 'ON_PRESS') {
-//     return false
-//   }
-// }
