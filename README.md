@@ -4,6 +4,8 @@
 
 The ability to write protoype interactions in the Figma plugin API has landed! This update allows plugins to create new prototype interactions in the editor.
 
+Check out the [Figma plugin API docs](https://www.figma.com/plugin-docs/intro/) to learn more about writing plugins.
+
 ### Understanding reactions
 Under the hood, interactions are stored in the `reactions` array. A node can have multiple reaction objects and each is comprised of an `action` and a `trigger`. The `action` defines "what happens?" and the `trigger` defines "how will it happen?"
 
@@ -25,7 +27,11 @@ Here's an example `reactions` array with a single reaction:
 ]
 ```
 
+### Setting reactions
+Like [many of the complex properties](https://www.figma.com/plugin-docs/editing-properties/), the `reactions` array is `readonly` meaning you can't directly edit reactions inside the array. Instead, you'll want to make a copy of the array where you can make your changes or add new reactions. If your cloning individual reaction objects inside the array, **Create Figma Plugin** has [some useful utilities](https://yuanqing.github.io/create-figma-plugin/#object).
 
+### Building valid reactions
+There's a range of different reactions in Figma and not all are compatible with eachother or have different reaction properties. While some of these will be caught during development (thanks to typings), you'll want to ensure your plugin properly checks for valid reactions.
 
 
 ## Development guide
