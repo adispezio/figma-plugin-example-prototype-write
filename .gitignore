@@ -3,4 +3,4 @@
 *.css.d.ts
 build/
 node_modules/
-.vscode
+.vscode/
