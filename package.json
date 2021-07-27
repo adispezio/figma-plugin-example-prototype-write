@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@create-figma-plugin/ui": "^1.2.2",
+    "@create-figma-plugin/utilities": "^1.2.2",
+    "preact": "^10.5.14"
+  },
+  "devDependencies": {
+    "@create-figma-plugin/build": "^1.2.2",
+    "@create-figma-plugin/tsconfig": "^1.2.2",
+    "@figma/plugin-typings": "^1",
+    "typescript": "^4"
+  },
+  "scripts": {
+    "build": "build-figma-plugin --typecheck --minify",
+    "watch": "build-figma-plugin --typecheck --watch"
+  },
+  "figma-plugin": {
+    "id": "figma-plugin-example-prototype-write",
+    "name": "Plugin Example Prototype Write",
+    "main": "src/main.ts",
+    "ui": "src/ui.tsx"
+  }
+}

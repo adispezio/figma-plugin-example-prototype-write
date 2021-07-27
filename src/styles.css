@@ -1,0 +1,21 @@
+.makeSelection {
+    background-color: var(--color-selection-b);
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layerlist {
+    height: 96px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.layerlistitem {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 var(--space-small);
+}
