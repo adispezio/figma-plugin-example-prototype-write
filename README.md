@@ -26,9 +26,10 @@ Here's an example `reactions` array with a single reaction:
 
 ## Development guide
 
-This plugin example is built using [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/) by @yuanqing. It's an excellent boilerplate for new Figma plugins and comes packed with a ton of useful utilities.
+This plugin example is built using [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/) by [
+Yuan Qing Lim](https://github.com/yuanqing). It's an excellent boilerplate for new Figma plugins and comes packed with a ton of useful utilities.
 
-**Note:** This plugin uses esbuild for JavaScript bundling (built by Figma cofounder @evanw!). While fairly stable, the project is still in active development.
+**Note:** This plugin uses esbuild for JavaScript bundling (built by Figma cofounder [Evan Wallace](https://github.com/evanw)!). While fairly stable, the project is still in active development.
 
 ### Pre-requisites
 
