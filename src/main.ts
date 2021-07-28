@@ -1,7 +1,6 @@
 // Import Create Figma Plugin utilities
 import { showUI, once, emit, getSelectedNodesOrAllNodes, formatWarningMessage } from '@create-figma-plugin/utilities'
 
-
 export default function () {
   // Nodes that will get new reactions  
   let origins: any;

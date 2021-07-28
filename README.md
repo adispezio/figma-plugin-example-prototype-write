@@ -7,7 +7,7 @@ The ability to write protoype interactions in the Figma plugin API has landed! T
 Check out the [Figma plugin API docs](https://www.figma.com/plugin-docs/intro/) to learn more about writing plugins.
 
 ### Understanding reactions
-Under the hood, interactions are stored in the `reactions` array. A node can have multiple reaction objects and each is comprised of an `action` and a `trigger`. The `action` defines "what happens?" and the `trigger` defines "how will it happen?"
+Under the hood, interactions are stored in the `reactions` array. A node can have multiple reaction objects in this array, and each is comprised of an `action` and a `trigger`. The `action` defines "what happens?" and the `trigger` defines "how will it happen?"
 
 Here's an example `reactions` array with a single reaction:
 ```
@@ -32,7 +32,6 @@ Like [many of the complex properties](https://www.figma.com/plugin-docs/editing-
 
 ### Building valid reactions
 There's a range of different reactions in Figma and not all are compatible with eachother or have different reaction properties. While some of these will be caught during development (thanks to typings), you'll want to ensure your plugin properly checks for valid reactions.
-
 
 ## Development guide
 
