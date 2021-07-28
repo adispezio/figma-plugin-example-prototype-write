@@ -1,4 +1,4 @@
-// Import Create Figma Plugin utilities
+// Create Figma Plugin utilities
 import { showUI, once, emit, getSelectedNodesOrAllNodes, formatWarningMessage } from '@create-figma-plugin/utilities'
 
 export default function () {
@@ -38,7 +38,6 @@ export default function () {
     figma.currentPage.selection = [];
   }
 
-  
   // Once destinations are confirmed, 
   function handleConfirmDestinations() {
 
@@ -126,5 +125,4 @@ export default function () {
 
   // Do an initial check of the current selection when the plugin loads
   handleSelectionUpdate();
-  
 }
