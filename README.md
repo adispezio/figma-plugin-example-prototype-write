@@ -10,7 +10,7 @@ Check out the [Figma plugin API docs](https://www.figma.com/plugin-docs/intro/) 
 Under the hood, interactions are stored in the `reactions` array. A node can have multiple reaction objects in this array, and each is comprised of an `action` and a `trigger`. The `action` defines "what happens?" and the `trigger` defines "how will it happen?"
 
 Here's an example `reactions` array with a single reaction:
-```
+```json
 [
     {
         "action": {
