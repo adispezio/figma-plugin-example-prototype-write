@@ -4,6 +4,9 @@
 
 The ability to write protoype interactions in the Figma plugin API has landed! This update allows plugins to create new prototype interactions in the editor.
 
+This plugin example is built using [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/) by [
+Yuan Qing Lim](https://github.com/yuanqing). It's an excellent boilerplate for new Figma plugins and comes packed with a ton of useful utilities.
+
 Check out the [Figma plugin API docs](https://www.figma.com/plugin-docs/intro/) to learn more about writing plugins.
 
 ### Understanding reactions
@@ -34,9 +37,6 @@ Like [many of the complex properties](https://www.figma.com/plugin-docs/editing-
 There's a range of different reactions in Figma and not all are compatible with eachother or have different reaction properties. While some of these will be caught during development (thanks to typings), you'll want to ensure your plugin properly checks for valid reactions.
 
 ## Development guide
-
-This plugin example is built using [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/) by [
-Yuan Qing Lim](https://github.com/yuanqing). It's an excellent boilerplate for new Figma plugins and comes packed with a ton of useful utilities.
 
 **Note:** This plugin uses esbuild for JavaScript bundling (built by Figma cofounder [Evan Wallace](https://github.com/evanw)!). While fairly stable, the project is still in active development.
 
