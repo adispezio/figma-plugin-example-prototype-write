@@ -1,34 +1,34 @@
 .makeSelection {
-    background-color: var(--color-selection-b);
-    height: 96px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--color-selection-b);
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .layerlist {
-    height: 96px;
-    overflow-y: scroll;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    position: relative;
+  height: 96px;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
 }
 
 .layerlist::after {
-    content: "";
-    display: block;
-    height: 20px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(rgba(0,0,0,0),rgba(255,255,255))
+  content: "";
+  display: block;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0,0,0,0),rgba(255,255,255))
 }
 
 .layerlistitem {
-    display: flex;
-    align-items: center;
-    height: 20px;
-    padding: 0 var(--space-small);
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 var(--space-small);
 }
