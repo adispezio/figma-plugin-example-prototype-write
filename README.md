@@ -5,7 +5,7 @@
 The ability to write protoype interactions in the Figma plugin API has landed! This update allows plugins to create new prototype interactions in the editor.
 
 This plugin example is built using [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/) by [
-Yuan Qing Lim](https://github.com/yuanqing). It's an excellent boilerplate for new Figma plugins and comes packed with a ton of useful utilities.
+Yuan Qing Lim](https://github.com/yuanqing). It's an excellent boilerplate for new Figma plugins and includes a ton of useful utilities.
 
 Check out the [Figma plugin API docs](https://www.figma.com/plugin-docs/intro/) to learn more about writing plugins.
 
