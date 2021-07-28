@@ -1,4 +1,4 @@
-// Import Create Figma Plugin Utilities
+// Import Create Figma Plugin utilities
 import { showUI, once, emit, getSelectedNodesOrAllNodes, formatWarningMessage } from '@create-figma-plugin/utilities'
 
 
@@ -113,7 +113,7 @@ export default function () {
     figma.closePlugin()
   }
 
-  // 
+  // When the selection changes, pass it to the UI
   figma.on("selectionchange", handleSelectionUpdate);
 
   // Listen for the next steps in the UI
@@ -127,5 +127,5 @@ export default function () {
 
   // Do an initial check of the current selection when the plugin loads
   handleSelectionUpdate();
-
+  
 }
