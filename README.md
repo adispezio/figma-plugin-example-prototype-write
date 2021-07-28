@@ -14,7 +14,7 @@ Under the hood, interactions are stored in the `reactions` array. A node can hav
 
 Here's an example `reactions` array with a single reaction:
 ```js
-[ // reactions array
+[
     { // reaction
         "action": {
             "type": "NODE",
@@ -27,7 +27,7 @@ Here's an example `reactions` array with a single reaction:
             "type": "ON_CLICK"
         }
     }
-    // addtional reactions...
+    // additional reactions...
 ]
 ```
 
